@@ -8,11 +8,11 @@ Week 1
 
 ## Current Day
 
-Day 1
+Day 2
 
 ## Current Focus
 
-Binary Search / Big O
+Stack / Vector Math
 
 ## Active Project
 
@@ -22,19 +22,21 @@ CSV Analyzer
 
 ## Today's Tasks
 
-- [x] Impelement Binary Search by myself
+- [x] Implement Stack
 
-- [x] Revise Big O
+- [x] Neetcode Valid Parentheses
 
-- [ ] Intro to C++
+- [x] Vector
+
+- [ ] 3DGS train.py
 
 ---
 
 ## This Week
 
-- [ ] Day 1
+- [x] Day 1
 
-- [ ] Day 2
+- [x] Day 2
 
 - [ ] Day 3
 

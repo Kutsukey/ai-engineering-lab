@@ -4,3 +4,6 @@
 
 *.zip
 *.rar
+
+.vscode/
+.obsidian/
