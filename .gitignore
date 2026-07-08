@@ -7,3 +7,9 @@
 
 .vscode/
 .obsidian/
+vault/.obsidian
+
+*.exe
+*.ilk
+*.obj
+*.pdb
