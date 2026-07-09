@@ -49,7 +49,27 @@ def matrix_multiply(A,B):
             m = 0
         r += 1
         c = 0    
-    return C            
+    return C    
+
+def matrix_vector_multiply(m,v):
+    rows_M = len(m)
+    cols_M = len(m[0])
+    cols_V = len(v)
+    result = [[0] for _ in range(rows_M)]
+    r=0
+    c=0
+    if cols_M == cols_V:
+        while r < rows_M:
+            while c < cols_M:
+                result[r][0] += m[r][c] * v[c]
+                c+=1
+            c=0
+            r+=1
+    else:
+        raise ValueError("Boyut uyuşmazlığı")
+    return result
+
+
     
 
 m1 = [[1,2],[1,2]]
@@ -74,3 +94,8 @@ B = [
 ]
 
 print(matrix_multiply(A,B))
+
+C = [[2,5,1],[4,0,3]]
+V = [3,1,2]
+
+print(matrix_vector_multiply(C,V))
