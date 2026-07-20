@@ -7,7 +7,7 @@
 
 .vscode/
 .obsidian/
-.vault/
+vault/
 
 *.exe
 *.ilk
